@@ -15,7 +15,7 @@ class Coordinator {
     }
     
     func start() {
-        window.rootViewController = RootViewController()
+        window.rootViewController = LoginViewController()
         window.makeKeyAndVisible()
     }
 }
