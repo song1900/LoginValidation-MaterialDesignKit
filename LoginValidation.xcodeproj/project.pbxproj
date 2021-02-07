@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F63CC4EA25D04092006A6B05 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63CC4E925D04092006A6B05 /* LoginViewModel.swift */; };
 		F6590AC425D039C8007862DF /* UIViewController-extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6590AC325D039C8007862DF /* UIViewController-extensions.swift */; };
 		F667F07025CC39E5000050B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667F06F25CC39E5000050B6 /* AppDelegate.swift */; };
 		F667F07225CC39E5000050B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667F07125CC39E5000050B6 /* SceneDelegate.swift */; };
@@ -39,6 +40,7 @@
 		01FBAFFD13CFCE4B1774EB42 /* Pods-LoginValidation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginValidation.release.xcconfig"; path = "Target Support Files/Pods-LoginValidation/Pods-LoginValidation.release.xcconfig"; sourceTree = "<group>"; };
 		0BA4E7F66B11B29C81EF77BB /* Pods_LoginValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E20E94AAF6C8725202D53A /* Pods-LoginValidation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginValidation.debug.xcconfig"; path = "Target Support Files/Pods-LoginValidation/Pods-LoginValidation.debug.xcconfig"; sourceTree = "<group>"; };
+		F63CC4E925D04092006A6B05 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		F6590AC325D039C8007862DF /* UIViewController-extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController-extensions.swift"; sourceTree = "<group>"; };
 		F667F06C25CC39E5000050B6 /* LoginValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F667F06F25CC39E5000050B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F63CC4E825D04084006A6B05 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F63CC4E925D04092006A6B05 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		F6590AC225D039A2007862DF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,10 +141,11 @@
 		F667F06E25CC39E5000050B6 /* LoginValidation */ = {
 			isa = PBXGroup;
 			children = (
-				F6590AC225D039A2007862DF /* Extensions */,
+				F63CC4E825D04084006A6B05 /* ViewModels */,
 				F667F0CE25CC4334000050B6 /* AppDelegate */,
 				F667F0BD25CC418E000050B6 /* Controllers */,
 				F667F0C925CC4202000050B6 /* Coordinator.swift */,
+				F6590AC225D039A2007862DF /* Extensions */,
 				F667F0CF25CC4349000050B6 /* Resources */,
 			);
 			path = LoginValidation;
@@ -358,6 +369,7 @@
 			files = (
 				F667F0CA25CC4202000050B6 /* Coordinator.swift in Sources */,
 				F667F07025CC39E5000050B6 /* AppDelegate.swift in Sources */,
+				F63CC4EA25D04092006A6B05 /* LoginViewModel.swift in Sources */,
 				F667F07225CC39E5000050B6 /* SceneDelegate.swift in Sources */,
 				F6590AC425D039C8007862DF /* UIViewController-extensions.swift in Sources */,
 				F667F0C225CC41C1000050B6 /* LoginViewController.swift in Sources */,
